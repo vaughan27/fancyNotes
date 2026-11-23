@@ -1,0 +1,10 @@
+[project]
+name = "notes-api"
+version = "0.1.0"
+description = "Small notes API"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.115",
+    "sqlalchemy>=2.0",
+    "psycopg[binary]>=3.2",
+]
